@@ -2,6 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+This code was originally used in the second project of the Udacity course:
+Programming for Data Science
+"""
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
