@@ -193,13 +193,13 @@ def main():
             show_sample=input("\nWould you like to see a sample of the data before we load the statistics (yes or no)?\n")
             if show_sample=='yes':
                 start=0
-                end=5
+                end=10
                 keep_going=''
                 while keep_going!='no':
                     print(df.iloc[start:end])
-                    keep_going=input("\nShow another 5 lines of data (hit any key to continue, or type no to stop)?\n")
-                    start+=5
-                    end+=5
+                    keep_going=input("\nShow another 10 lines of data (hit any key to continue, or type no to stop)?\n")
+                    start+=10
+                    end+=10
 
             print("\nLoading Statistics")
             print('-'*40)
