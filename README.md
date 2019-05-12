@@ -2,7 +2,7 @@
 12.May.2019
 
 ### Project Title
-Github Project with Udacity
+Mastering Git with Udacity - on a sunny afternoon in Southampton
 
 ### Description
 Using Git to manage a local and remote project, along with Github as remote host
