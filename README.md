@@ -15,4 +15,5 @@ washington.csv - data on Washington bike sharing
 .gitignore - to exclude the data files mentioned above
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I've used Stackoverflow.com several times to check commands throughout the whole course.
+Also read this blog post which was quite useful: https://medium.freecodecamp.org/git-cheat-sheet-and-best-practices-c6ce5321f52
