@@ -145,7 +145,7 @@ def trip_duration_stats(df):
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    print('\nCalculating User Stats... Please wait...\n')
     start_time = time.time()
 
     # Display counts of user types
@@ -197,11 +197,11 @@ def main():
                 keep_going=''
                 while keep_going!='no':
                     print(df.iloc[start:end])
-                    keep_going=input("\nShow another 10 lines of data (hit any key to continue, or type no to stop)?\n")
+                    keep_going=input("\nWant to show another 10 lines of data (hit any key to continue, or type no to stop)?\n")
                     start+=10
                     end+=10
 
-            print("\nLoading Statistics")
+            print("\nLoading Statistics... Please wait...")
             print('-'*40)
             time_stats(df)
             station_stats(df)
